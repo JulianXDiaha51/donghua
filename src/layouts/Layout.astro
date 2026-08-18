@@ -11,7 +11,7 @@ interface Props {
 
 const config = (animeConfig as any).default || animeConfig;
 const {
-  sankadonghub: { siteName, description, favicon },
+  JZDonghua: { siteName, description, favicon },
 } = config;
 
 const seoProps = Astro.props.seo;
@@ -50,7 +50,7 @@ const seo: SEOProps = {
         { title: "Ongoing", href: "/ongoing" },
         { title: "Completed", href: "/completed" },
         { title: "History", href: "/history" },
-        { title: "Donasi", href: "https://sociabuzz.com/sankanime/tribe" },
+        { title: "TopUp Games", href: "https://jztopup.my.id" },
       ]}
     />
 
@@ -77,13 +77,13 @@ const seo: SEOProps = {
         _2: [
           { title: "Disclaimers", href: "/disclaimers" },
           {
-            title: "Donasi",
-            href: "https://qris.zone.id/juliandev",
+            title: "TopUp Games",
+            href: "https://jztopup.my.id",
             targetBlank: true,
           },
           {
             title: "Terima Kasih",
-            href: "https://qris.zone.id/juliandev",
+            href: "https://jztopup.my.id",
             targetBlank: true,
           },
         ],
